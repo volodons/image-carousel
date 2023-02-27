@@ -18,7 +18,7 @@
   scroll-behavior: smooth;
 }
 
-.slider_arrows--left { 
+.slider__arrows--left { 
   width: 2rem;
   height: 2rem;
   border-top: 10px solid #ffffff;
@@ -30,7 +30,7 @@
   top: 50vh;
 }
 
-.slider_arrows--right { 
+.slider__arrows--right { 
   width: 2rem;
   height: 2rem;
   border-top: 10px solid #ffffff;
@@ -42,11 +42,11 @@
   top: 50vh;
 }
 
-.slider_buttons-wrapper {
+.slider__buttons-wrapper {
   margin: 2rem;
 }
 
-.slider_button {
+.slider__button {
   display: inline;
   margin: 1rem;
   padding: 1rem 1.5rem;
@@ -55,6 +55,6 @@
   cursor: pointer;
 }
 
-.slider_button:hover {
+.slider__button:hover {
   background-color: #035f8d;
 }
