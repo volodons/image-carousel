@@ -6,6 +6,7 @@
   justify-content: center;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,38,190,1) 20%, rgba(0,212,255,1) 100%);
+  position: relative;
 }
 
 .slider {
@@ -24,17 +25,19 @@
 
 .slider__image-text--heading {
   position: absolute;
-  bottom: 10%;
+  bottom: 15vh;
   left: 21vw;
-  color: wheat;
+  color: rgb(255, 255, 255);
   font-size: 4rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 .slider__image-text--content {
   position: absolute;
-  bottom: 1vh;
+  bottom: 10vh;
   left: 1vw;
-  color: wheat;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
 }
 
 .slider__arrows--left { 
@@ -87,6 +90,8 @@
 
 .slider__buttons-wrapper {
   margin: 2rem;
+  position: absolute;
+  bottom: 20vh;
 }
 
 .slider__button {
