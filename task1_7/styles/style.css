@@ -18,6 +18,25 @@
   scroll-behavior: smooth;
 }
 
+.slider__image-wrapper {
+  position: relative;
+}
+
+.slider__image-text--heading {
+  position: absolute;
+  bottom: 10%;
+  left: 21vw;
+  color: wheat;
+  font-size: 4rem;
+}
+
+.slider__image-text--content {
+  position: absolute;
+  bottom: 1vh;
+  left: 1vw;
+  color: wheat;
+}
+
 .slider__arrows--left { 
   width: 2rem;
   height: 2rem;
