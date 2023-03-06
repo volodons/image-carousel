@@ -64,7 +64,7 @@
   top: 30vh;
 }
 
-.slider__arrows--left--dead {
+.slider__arrows--left-dead {
   width: 2rem;
   height: 2rem;
   border-top: 10px solid rgba(255, 255, 255, 0.5);
@@ -76,7 +76,7 @@
   top: 30vh;
 }
 
-.slider__arrows--right--dead {
+.slider__arrows--right-dead {
   width: 2rem;
   height: 2rem;
   border-top: 10px solid rgba(255, 255, 255, 0.5);
